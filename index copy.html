@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<HTml>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Nikvan personal blog</title>
+        <!--=============== FAVICON ===============-->
+    
+        <link
+         rel="shortcut icon" 
+        href="letter-n-logo-design-n-logo-design-n-monogram-design_135595-2876.jpg" 
+        type="image/x-icon"
+        /> 
+    
+    
+        <!--=============== google font ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+        href="https://fonts.googleapis.com/css2?family=inter:wght@400;500;600;
+        700;900&display=swap"
+        rel="stylesheet"
+        />
+    
+        <!--=============== CSS ===============-->
+    
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    
+    
+    </head>
+ <HEAD>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        
+        .dark-mode {
+          background-color: rgb(68, 58, 58);
+          color: rgb(6, 0, 128);
+        }
+        </style>
+        <button onclick="myFunction()">light,dark</button>
+
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+    <title>
+        NIKVAN
+    </title>
+    <style>
+        h1 {color: pink;text-align: center;font-size: large;}
+    </style>
+        
+    </style>
+ </head>
+ <body style="background-image: url(back\ ground\ image\ 2.avif);">
+    <a href="#about me">about company</a>
+    <a href="#my university">our honors</a>
+    <a href="#my job">my job</a>
+    <a href="#detail">detail</a>
+    <a href="#contact us">contact</a>
+
+
+
+
+
+    <h1 style="text-align: center;">NIKVAN COMPANY</h1>
+    <h2 style="text-align: center;font-size: large;">I want to talk about my company</h2>
+    <div>
+        <h1 id="about company" style="text-align: left;">(About Company)</h1>
+        <p style="font-size: xx-large;">This is the beginning of an ups and downs road; But we all know that nothing is impossible with effort, it is proudly announced
+             that in 1401, NemanourAsia Company succeeded in opening its new factory in Baharestan town of Alborz province on 5 separate
+              floors with fully automatic lines and a much more equipped laboratory than before, ready for production and presentation.
+               Higher quality services are aimed at gaining the satisfaction of our dear consumers.
+
+            After years of continuous effort in the field of lighting, Nemanour Asia company has been trying to meet the country's lighting
+             needs by producing energy-efficient products and various types of lamps and LEDs in different power and designs for 
+             domestic, industrial and lighting purposes, and in parallel with the supply of the so-called third generation lighting 
+             products. to LED lamps, is always ready to provide services to dear consumers all over the country in producing and providing
+              the newest and highest quality products with the Nemanour brand, using technical knowledge and a laboratory unit equipped 
+              with advanced machines.
+            
+            Also, this complex has been able to become the model unit of Alborz province for consecutive years and the model unit of the
+             country in 1997, 1998 and 1400.
+            </p>
+
+            <hr>
+
+
+            <h1 id="our honors" style="text-align: left;">(Our Honors)</h1>
+    <p style="text-align: left;font-size: xx-large;">The production unit of the country's standard sample in the three years of 1997, 1998 and 1400.
+    <img src="جایزه-ویژه-جشنواره-اختراعات-لندن-scaled.jpeg" alt="honors" width="600">
+    <img src="مدال-طلا-جشنواره-اختراعات-لندن-1-scaled.jpeg" alt="honors" width="600">
+    </p>
+
+    <hr>
+
+            <h1 id="my job" style="text-align: left;">(My Job)</h1>
+            <p style="text-align: left;font-size: xx-large;">The company you see below is Namanoor asia Company, which is one of
+                 the largest companies in the electricity industry in Iran. I worked in this company for 3 years when I was in 
+                 Iran. In my first year in this company, I was working as an employee in the repair department and after that
+                  I was elected as an executive director. After being elected as an executive director, I participated in many 
+                  projects and it added a lot to my experience.</p>
+            <video src="nm video1.MOV" width="400px" height="400px" controls></video>
+            <video src="nm video2.mp4" width="400px" height="400px" controls></video>
+    </div>
+
+    <hr>
+
+    <p>
+        <h1 id="detail">(Detail)</h1>
+        <p style="font-size: xx-large;">
+            My Email:nikvanmst.n2022@gmail.com <br>
+            Whatsapp: <a href="https://wa.me/message/Q7LIUIT5Y3FOP1"target black tittle="whatsapp link">click here</a> <br>
+            Company Website: <a href="https://namanoor.net"target black title="namanoor asia">click here</a> <br>
+            
+        
+
+    </p>
+    <hr>
+
+        <h1 id="contact us">(Contact)</h1>
+        <p style="font-size: x-large;"></p>
+ </body>
+ <body>
+
+    <form id="contactForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" click="submitForm()">Submit</button>
+
+        <div id="responseMessage"></div>
+    </form>
+
+    <script>
+        function submitForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // You can add additional validation logic here
+
+            // For simplicity, just displaying a message
+            var responseMessage = document.getElementById('responseMessage');
+            responseMessage.textContent = `Thank you, ${name}! Your message has been received.`;
+        }
+    </script>
+
+</body>
+ 
+</HTml>
